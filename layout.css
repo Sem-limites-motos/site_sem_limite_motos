@@ -116,7 +116,7 @@ body {
   }
   
   /* Estilos para dispositivos maiores (layout de duas colunas) */
-  @media (min-width: 768px) {
+  @media (min-width: 880px) {
     main {
       flex-direction: row;
       flex-wrap: wrap;
