@@ -6,11 +6,13 @@ require '../controller/Application_Controller.php';
 $nome = $_POST["nome"];
 $cpf = $_POST["cpf"];
 $endereco = $_POST["endereco"];
+$gmail = $_POST["gmail"];
+
 
 // print($nome ." ".$cpf." ".$endereco);
 
 $enviar = new Application_Controller();
-$dados = $enviar->Cadastrar($nome,$cpf,$endereco);
+$dados = $enviar->Cadastrar($nome,$cpf,$endereco, $gmail);
 
 
 
